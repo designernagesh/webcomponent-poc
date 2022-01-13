@@ -1,4 +1,3 @@
-console.log("HI Vendor");
 // Vendors Boxes 
 let VendorBoxTemplate = document.createElement("template");
 VendorBoxTemplate.innerHTML=`
