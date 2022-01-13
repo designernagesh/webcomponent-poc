@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<section class="step-container">
+    <steps-todo class="step" step="01" title="Component Title1" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.google.com"></steps-todo>
+
+    <steps-todo class="step" step="02" title="Component Title2" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.amazon.com"></steps-todo>
+
+    <steps-todo class="step" step="03" title="Component Title3" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.google.com"></steps-todo>
+
+    <steps-todo class="step" step="04" title="Component Title4" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.google.com"></steps-todo>
+
+    <steps-todo class="step" step="05" title="Component Title5" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.amazon.com"></steps-todo>
+
+    <steps-todo class="step" step="06" title="Component Title6" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab." btn="learn more" link="https://www.google.com"></steps-todo>    
+</section>
+
+<!-- Vendor section starts -->
+<section class="vendor" id="vendor">
+
+    <div class="heading">
+        <h1>Our Services</h1>
+    </div>
+
+    <div class="box-container">
+        <vendor-box imgSrc="../ServiceComponent/images/image1.jpg" alt="img-one" title="Title One" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores." hrefLink="https://www.google.com" linkText="learm more"></vendor-box>
+
+        <vendor-box imgSrc="../ServiceComponent/images/image2.jpg" alt="img-two" title="Title Two" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores." hrefLink="https://www.ndtv.com" linkText="learm more"></vendor-box>
+
+        <vendor-box imgSrc="../ServiceComponent/images/image3.jpg" alt="img-three" title="Title Three" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores." hrefLink="https://www.amazon.com" linkText="learm more"></vendor-box>
+
+        <vendor-box imgSrc="../ServiceComponent/images/image4.jpg" alt="img-four" title="Title Four" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores." hrefLink="https://www.google.com" linkText="learm more"></vendor-box>
+    </div>
+
+</section>
+
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+
+    <div class="heading">
+        <h1>contact us</h1>
+    </div>
+
+    <contact-form namePlaceholder="your name" mailPlaceholder="your email" numberPlaceholder="your number" addressPlaceholder="your address" descriptionPlaceholder="say something" submiBtntValue="send message" submitBtnValue="send message">
+    </contact-form>
+</section>
+<!-- contact section ends -->
+
+<script src="../StepsComponent/js/scripts.js"></script>
+<script src="../ServiceComponent/js/scripts.js"></script>
+<script src="../ContactComponent/js/scripts.js"></script>
+</body>
+</html>
